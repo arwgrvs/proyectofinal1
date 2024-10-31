@@ -106,6 +106,10 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs" />
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Humani.cs" />
     <Compile Include="Humani.Designer.cs">
       <DependentUpon>Humani.cs</DependentUpon>
@@ -121,6 +125,18 @@
     <Compile Include="Mates.cs" />
     <Compile Include="Mates.Designer.cs">
       <DependentUpon>Mates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Matesc.cs" />
+    <Compile Include="Matesc.Designer.cs">
+      <DependentUpon>Matesc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Matesp.cs" />
+    <Compile Include="Matesp.Designer.cs">
+      <DependentUpon>Matesp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ModayMediana.cs" />
+    <Compile Include="ModayMediana.Designer.cs">
+      <DependentUpon>ModayMediana.cs</DependentUpon>
     </Compile>
     <Compile Include="Portada.cs" />
     <Compile Include="Portada.Designer.cs">
@@ -180,6 +196,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mates.resx">
+      <DependentUpon>Mates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Matesc.resx">
+      <DependentUpon>Matesc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Matesp.resx">
+      <DependentUpon>Matesp.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Portada.resx">
       <DependentUpon>Portada.cs</DependentUpon>

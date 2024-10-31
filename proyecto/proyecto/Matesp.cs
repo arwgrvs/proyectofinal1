@@ -1,8 +1,8 @@
 ﻿/*
  * Created by SharpDevelop.
- * User: CC2_PC43
- * Date: 24/10/2024
- * Time: 04:22 p. m.
+ * User: CC1_PC37
+ * Date: 31/10/2024
+ * Time: 11:41 a. m.
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
@@ -13,11 +13,11 @@ using System.Windows.Forms;
 namespace proyecto
 {
 	/// <summary>
-	/// Description of Mates.
+	/// Description of Matesp.
 	/// </summary>
-	public partial class Mates : Form
+	public partial class Matesp : Form
 	{
-		public Mates()
+		public Matesp()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -28,22 +28,20 @@ namespace proyecto
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
-		
+		void Button2Click(object sender, EventArgs e)
+		{
+			this.Close();
+		}
 		
 		void BtncClick(object sender, EventArgs e)
 		{
-			Matesc Matesc=new Matesc();
-			Matesc.Show();
-		}
-		void BtnpClick(object sender, EventArgs e)
-		{
-			Matesp Matesp=new Matesp();
-			Matesp.Show();
-		}
-		
-		void Button1Click(object sender, EventArgs e)
-		{
-					
+			double u, d, t, p;
+			u = double.Parse(txt1.Text);
+			d = double.Parse(txt2.Text);
+			t = double.Parse(txt3.Text);
+			t = u+d+t;
+			t = t/3;
+			txtp.Text = t.ToString();
 		}
 	}
 }
