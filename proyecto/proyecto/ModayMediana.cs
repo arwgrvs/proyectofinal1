@@ -1,8 +1,8 @@
 ﻿/*
  * Created by SharpDevelop.
- * User: CC2_PC43
- * Date: 24/10/2024
- * Time: 04:22 p. m.
+ * User: CC1_PC37
+ * Date: 31/10/2024
+ * Time: 11:54 a. m.
  * 
  * To change this template use Tools | Options | Coding | Edit Standard Headers.
  */
@@ -13,11 +13,11 @@ using System.Windows.Forms;
 namespace proyecto
 {
 	/// <summary>
-	/// Description of Mates.
+	/// Description of ModayMediana.
 	/// </summary>
-	public partial class Mates : Form
+	public partial class ModayMediana : Form
 	{
-		public Mates()
+		public ModayMediana()
 		{
 			//
 			// The InitializeComponent() call is required for Windows Forms designer support.
@@ -27,23 +27,6 @@ namespace proyecto
 			//
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
-		}
-		
-		
-		void BtncClick(object sender, EventArgs e)
-		{
-			Matesc Matesc=new Matesc();
-			Matesc.Show();
-		}
-		void BtnpClick(object sender, EventArgs e)
-		{
-			Matesp Matesp=new Matesp();
-			Matesp.Show();
-		}
-		
-		void Button1Click(object sender, EventArgs e)
-		{
-					
 		}
 	}
 }
